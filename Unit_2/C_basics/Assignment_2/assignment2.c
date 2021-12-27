@@ -1,5 +1,5 @@
 /*
- * EX7.c
+ * assignment2.c
  *
  *  Created on: Dec 26, 2021
  *      Author: Mohamed_Gamal
