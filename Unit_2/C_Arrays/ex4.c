@@ -3,7 +3,7 @@
 int main()
 {
 	// assuming a max a 10 elements
-	int arr[10],N,index,element;
+	int arr[20],N,index,element;
 
 	printf("Enter the no. of elements : ");
 	fflush(stdin);fflush(stdout);
@@ -23,7 +23,7 @@ int main()
 	scanf("%d",&index);
 
 	// insert element depending on the location
-	if(index<N)
+	if(index<=N)
 	{
 		for(int i=N-1;i>index-2;i--)
 		{
